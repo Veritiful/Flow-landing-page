@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 75vh;
+    background-color: rgb(26, 91, 151);
+}
+
+.features{
+    height: 100vh;
+    background-color: rgb(8, 58, 104);
+}
+
+.testimonials{
+    height: 70vh;
+    background-color: black;
+}
+
+.get-in-touch{
+    height: 20vh;
+    background-color: rgb(140, 87, 87);
+}
+
+footer{
+    height: 10vh;
+}
