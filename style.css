@@ -61,20 +61,12 @@ header article .get-it *:hover{
 
 
 .testimonials{
-    height: 70vh;
-    background-color: #ffffff;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.testimonials > *{
-    height: 50%;
 }
 
 .quote{
+    height: 15vh;
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -82,8 +74,7 @@ header article .get-it *:hover{
 }
 
 .users, .users img{
-    overflow: hidden;
-    height: 100%;
+    width: 100%;
 }
 
 .get-in-touch{
