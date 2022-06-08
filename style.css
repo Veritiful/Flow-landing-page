@@ -4,26 +4,81 @@
     padding: 0;
 }
 
+body
+{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 24px;
+}
+
 header{
     height: 75vh;
-    background-color: rgb(26, 91, 151);
+    background-image: url(./content/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+header .wrapper{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .wrapper img{
+    margin-top: auto;
+    height: 90%;
+}
+
+header article{
+    width: 45%;
+    color: #ffffff;
+}
+
+header article *{
+    margin: 30px;
+}
+
+header article .get-it{
+    margin: 0;
+}
+
+header article .get-it *{
+    height: 100px;
+}
+
+header article .get-it *:hover{
+    cursor: pointer;
+}
+
 
 .features{
     height: 100vh;
-    background-color: rgb(8, 58, 104);
+}
+
+.features .upper{
+    height: 50%;
+    background-color: #ffffff;
+}
+
+.features .lower{
+    height: 50%;
+    background-color: #e3e3e3;
 }
 
 .testimonials{
     height: 70vh;
-    background-color: black;
+    background-color: #ffffff;
 }
 
 .get-in-touch{
     height: 20vh;
-    background-color: rgb(140, 87, 87);
+    background-color: #ffffff;
 }
 
 footer{
     height: 10vh;
+    background-color: #e3e3e3;
 }
