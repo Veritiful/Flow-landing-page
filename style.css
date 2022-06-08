@@ -82,14 +82,35 @@ header article .get-it *:hover{
 }
 
 .users, .users img{
+    overflow: hidden;
     height: 100%;
 }
 
-
-
 .get-in-touch{
-    height: 20vh;
     background-color: #ffffff;
+    margin: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.get-in-touch > *{
+    margin: 5px;
+}
+
+
+.socials > *{
+    height: 70px;
+    opacity: 50%;
+    filter: grayscale(100%);
+}
+
+.socials > *:hover{
+    cursor: pointer;
+    opacity: 100%;
+    filter: none;
 }
 
 footer{
